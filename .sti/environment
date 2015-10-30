@@ -1,4 +1,4 @@
 #uncomment and change to appropriate proxy
 #http_proxy=http://somehost.mydomain.com:8080
-MAVEN_ARGS=package -Popenshift -DskipTests -Dcom.redhat.xpaas.repo.redhatga -s$LOCAL_SOURCE_DIR/settings.xml 
+MAVEN_ARGS=package -Popenshift -DskipTests -Dcom.redhat.xpaas.repo.redhatga -s settings.xml 
 
