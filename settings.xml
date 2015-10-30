@@ -3,8 +3,8 @@
         <proxy>
             <active>true</active>
             <protocol>http</protocol>
-            <host>your_proxy_host</host>
-            <port>your_proxy_port</port>
+            <host>us_proxy_indy.xh1.lilly.com</host>
+            <port>9000</port>
             <!--
             <username>proxyuser</username>
             <password>somepassword</password>
