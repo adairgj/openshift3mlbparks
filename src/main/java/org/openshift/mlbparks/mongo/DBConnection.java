@@ -71,6 +71,10 @@ public class DBConnection {
 			System.out.println("The database is empty.  We need to populate it");
 			try {
 				String currentLine = new String();
+				System.setProperty("http.proxyHost", "us_proxy_indy.xh1.lilly.com");
+        			System.setProperty("http.proxyPort", "9000");
+        			System.setProperty("https.proxyHost", "us_proxy_indy.xh1.lilly.com");
+        			System.setProperty("https.proxyPort", "9000");
 				URL jsonFile = new URL(
 						"https://raw.githubusercontent.com/gshipley/openshift3mlbparks/master/mlbparks.json");
 				BufferedReader in = new BufferedReader(new InputStreamReader(jsonFile.openStream()));
